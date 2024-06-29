@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Chavez - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Carlos Chavez</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="text-box">
+                <h1 class="title-home">Welcome to My Portfolio</h1>
+                <p>Experienced Web Developer</p>
+                <a href="#portfolio" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="assets/images/IMG_7697.jpg" alt="Carlos Chavez">
+            </div>
+            <div class="about-text">
+                <h2 class="title-about">About Me</h2>
+                <p>I am a skilled Web Developer with experience in building and managing websites and web applications. I hold a degree in Media Communications from Full Sail University and a certification in Software Engineering from Triple Ten Bootcamp.</p>
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>HTML5, CSS3, JavaScript, React.js, Node.js</li>
+                    <li>Shopify, Webflow, Liquid</li>
+                    <li>API integration and eCommerce optimization</li>
+                    <li>SEO, Content Marketing, Social Media Strategy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="title-portfolio">Portfolio</h2>
+            <div class="grid">
+                <div class="portfolio-item">
+                    <a href="https://tpgrph.com/" target="_blank">
+                        <img src="assets/images/Screenshot 2024-06-28 at 5.00.04 PM.png" alt="TPGRPH">
+                    </a>
+                    <h3>TPGRPH</h3>
+                    <p>Developed and optimized the website for enhanced user experience and performance.</p>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://visalialifestyle.com/" target="_blank">
+                        <img src="assets/images/Screenshot 2024-06-28 at 5.00.20 PM.png" alt="Visalia Lifestyle">
+                    </a>
+                    <h3>Visalia Lifestyle</h3>
+                    <p>Contributed to the design and development of the lifestyle magazine's website.</p>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://apps.shopmoment.com/rtro-camera" target="_blank">
+                        <img src="assets/images/Screenshot 2024-06-28 at 5.00.40 PM.png" alt="RTRO Camera">
+                    </a>
+                    <h3>RTRO Camera</h3>
+                    <p>Worked on the development and integration of the eCommerce platform for RTRO Camera app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="title-services">Services</h2>
+            <div class="services-content">
+                <div class="services-text">
+                    <ul class="services-list">
+                        <li>Web Development</li>
+                        <li>eCommerce Optimization</li>
+                        <li>API Integration</li>
+                        <li>SEO and Content Marketing</li>
+                    </ul>
+                </div>
+                <div class="services-image">
+                    <img src="assets/images/IMG_7706.jpg" alt="Service Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="title-contact">Contact</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/carlos-chavez-3085672a6/">LinkedIn</a>
+                <a href="https://github.com/wearyshepherd">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Carlos Chavez. All rights reserved.</p>
+    </footer>
+</body>
+</html>
