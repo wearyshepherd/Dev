@@ -11,8 +11,12 @@ body {
     color: #333;
 }
 
+:root {
+    --burnt-orange: #cc5500;
+}
+
 header {
-    background: #000;
+    background: var(--burnt-orange);
     color: #fff;
     padding: 1rem 0;
     position: fixed;
